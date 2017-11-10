@@ -1,0 +1,393 @@
+
+@media (min-width:901px){
+  body{
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    width: 900px;
+    animation-name: rebote;
+  	animation-duration: 1s;
+  }
+  @-webkit-keyframes rebote {
+  	0%{
+  		position: relative;
+  		margin-top: 150%
+  	}
+  	60%{
+  		position: relative;
+  		margin-top: -5%
+  	}
+  	100%{
+  		position: relative;
+  		margin-top: 0%
+  	}
+  }
+
+  .contenedor !important{
+    width: 900px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  #banner .bloque1 {
+    background-color: #5b7989;
+    min-height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #banner .bloque1 h1{
+    width: 40%;
+    font-size: 28px;
+    margin: 40px 10px;
+    text-shadow: 2px 2px 2px #02010a;
+    float: left;
+  }
+  #banner .bloque1 nav {
+    background-color:;
+    height: 100%;
+    float: right;
+  }
+  #banner .bloque1 nav ul {
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 100px;
+    width: 100%;
+  }
+  #banner .bloque1 nav li {
+    float: left;
+    display: inline;
+    margin: 0;
+    text-decoration: none;
+  }
+
+  #banner .bloque1 nav li a:link, #banner .bloque1 nav li a:visited {
+    color: #fff;
+    font-size:25px;
+    display: inline-block;
+    padding: 5px 1.2em;
+    text-decoration: underline;
+  }
+
+  #banner .bloque1 nav li a:hover {
+  text-decoration: none;
+  color: #408A9F;
+  }
+  #banner .bloque1 nav li a:active {
+  text-decoration: none;
+  }
+
+  ##banner .bloque1 #index{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #seccionp{
+    background-color: #82c3a6;
+    width: 100%;
+  }
+  #seccionp .bloque2 img{
+    width: 70%;
+    height: 50%;
+    margin: 10px 15%;
+    border: 1px solid black;
+  }
+
+  #seccion{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+  }
+
+  #seccion .bloque3{
+    background-color: #d5c75f;
+    width: 50%;
+    padding-top: 1.5%;
+  }
+  #seccion .bloque3 > img{
+    width: 80%;
+    height: 80%;
+    margin: 10px 10%;
+    border: 1px solid black;
+    -ms-transition: box-shadow 1s, border 1s;
+  	-webkit-transition: box-shadow 1s, border 1s;
+  	transition: box-shadow 1s, border 1s;
+  }
+  #seccion .bloque3 img:hover{
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    -moz-box-shadow: 3px 3px 2px #82c3a6;
+  	-webkit-box-shadow: 3px 3px 2px #82c3a6;
+    box-shadow: 3px 3px 2px #82c3a6;
+    -ms-border: 2px solid black;
+  	-webkit-border: 2px solid black;
+    border: 2px solid black;
+  }
+  #seccion .bloque3 > p{
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+    padding-bottom: 10%;
+  }
+
+  #seccion .bloque4{
+    background-color: #d5c75f;
+    width: 50%;
+    padding-top: 1.5%;
+  }
+  #seccion .bloque4 img{
+    width: 80%;
+    height: 80%;
+    margin: 10px 10%;
+    border: 1px solid black;
+    -webkit-transition: all 1s , box-shadow, 1s;
+    -moz-transition: all 1s, box-shadow 1s;
+    -ms-transition: all 1s, box-shadow 1s;
+  }
+  #seccion .bloque4 img:hover{
+    -webkit-transform: translate(20px, -5px);
+    -moz-transform: translate(20px, -5px);
+    transform: translate(20px, -5px);
+    -ms-box-shadow: 3px 3px 2px #82c3a6;
+  	-webkit-box-shadow: 3px 3px 2px #82c3a6;
+    box-shadow: 3px 3px 2px #82c3a6;
+    -ms-border: 2px solid black;
+  	-webkit-border: 2px solid black;
+    border: 2px solid black;
+  }
+  #seccion .bloque4 > p{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    padding-bottom: 10%;
+  }
+
+  #acerca{
+    background-color: #C6d5c5;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  #acerca .bloquef1{
+    width: 25%;
+    margin: 0px 2%
+  }
+  #acerca .bloquef2{
+    width: 25%;
+    margin: 0px 2%
+  }
+  #acerca .bloquef3{
+    width: 25%;
+    margin: 0px 2%
+  }
+  #acerca img{
+    width: 20px;
+    height: 20px;
+    float: left;
+  }
+
+  #acerca .bloquef4{
+    width: 25%;
+    margin: 0px 2%
+  }
+}
+
+
+
+@media (max-width:900px){
+  body{
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    animation-name: rebote;
+  	animation-duration: 1s;
+  }
+  @-webkit-keyframes rebote {
+  	0%{
+  		position: relative;
+  		margin-top: 150%
+  	}
+  	60%{
+  		position: relative;
+  		margin-top: -5%
+  	}
+  	100%{
+  		position: relative;
+  		margin-top: 0%
+  	}
+  }
+  .contenedor !important{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+  }
+
+  #banner .bloque1 {
+    background-color: #5b7989;
+    min-height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #banner .bloque1 > h1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px 0px;;
+    text-shadow: 2px 2px 2px #02010a;
+    float: left;
+  }
+  #banner .bloque1 nav {
+    display: inline-block;
+    width: 100%;
+  }
+  #banner .bloque1 nav ul {
+    margin: 0px 2%;
+    list-style: none;
+    display: inline-block;
+  }
+  #banner .bloque1 nav li {
+    display: inline;
+    margin: 0px;
+    padding: 0px 2px;
+
+  }
+  #banner .bloque1 nav a:link, #banner .bloque1 nav a:visited{
+    color: #fff;
+    font-size:25px;
+    text-decoration: underline;
+  }
+
+  #seccionp{
+    background-color: #82c3a6;
+    width: 100%;
+  }
+  #seccionp .bloque2 img{
+    width: 80%;
+    height: 80%;
+    margin: 5% 10%;
+  }
+
+  #seccion .bloque3{
+    background-color: #d5c75f;
+    padding-top: 1.3em;
+    width: 100%;
+  }
+  #seccion .bloque3 > img{
+    width: 80%;
+    height: 80%;
+    margin: 10px 10%;
+    border: 1px solid black;
+    -ms-transition: box-shadow 1s, border 1s;
+  	-webkit-transition: box-shadow 1s, border 1s;
+  	transition: box-shadow 1s, border 1s;
+  }
+  #seccion .bloque3 img:hover{
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    -moz-box-shadow: 3px 3px 2px #82c3a6;
+  	-webkit-box-shadow: 3px 3px 2px #82c3a6;
+    box-shadow: 3px 3px 2px #82c3a6;
+    -ms-border: 2px solid black;
+  	-webkit-border: 2px solid black;
+    border: 2px solid black;
+  }
+  #seccion .bloque3 > p{
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  #seccion .bloque4{
+    background-color: #d5c75f;
+    width: 100%;
+  }
+  #seccion .bloque4 img{
+    width: 80%;
+    height: 80%;
+    margin: 10px 10%;
+    border: 1px solid black;
+    -webkit-transition: all 1s , box-shadow, 1s;
+    -moz-transition: all 1s, box-shadow 1s;
+    -ms-transition: all 1s, box-shadow 1s;
+  }
+  #seccion .bloque4 img:hover{
+    -webkit-transform: translate(20px, -5px);
+    -moz-transform: translate(20px, -5px);
+    transform: translate(20px, -5px);
+    -ms-box-shadow: 3px 3px 2px #82c3a6;
+  	-webkit-box-shadow: 3px 3px 2px #82c3a6;
+    box-shadow: 3px 3px 2px #82c3a6;
+    -ms-border: 2px solid black;
+  	-webkit-border: 2px solid black;
+    border: 2px solid black;
+  }
+  #seccion .bloque4 > p{
+    margin: 0px;
+    padding-bottom: 1.3em;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+
+  }
+
+  #acerca{
+    width: 100%;
+    background-color: #C6d5c5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+  }
+  #acerca .bloquef1{
+    width: 100%;
+  }
+  #acerca .bloquef2{
+    width: 100%;
+  }
+  #acerca .bloquef3{
+    width: 100%;
+  }
+  #acerca .bloquef4{
+    width: 100%;
+    padding-bottom: 1.3em;
+  }
+  #acerca img{
+    width: 20px;
+    height: 20px;
+    float: left;
+  }
+
+  #acerca h1{
+      padding-top: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  #acerca .c{
+    margin: 0px; margin-left:10%;
+  }
+  #acerca p{
+    padding: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+}
